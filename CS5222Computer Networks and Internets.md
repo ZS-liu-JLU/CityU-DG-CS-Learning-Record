@@ -55,10 +55,51 @@ transmission delay = length of packets / transmission rate
 packeting-switching(分组交换) : hosts split application-layer messages into packets
 
 packet-switching characteristic:  
-+store and forward
-*transmission delay
--end-end dealy
-one-hop（单跳）
+store and forward:entire packet must arrive at router before it canbe transmitted on next link    
+transmission delay  
+end-end dealy  （端到端传输时延）  
+one-hop  （单跳）
+
+Packet queuing and loss :  
+packets will queue,waiting to be transmitted on output lin ( arrival rate > transmission rate )  
+packets can be dropped(lost) if memory(buffer缓存区) in router fills up  
+
+two key network-core functions :   
+forwarding（转发,local action，将数据包从一个网络接口转发到另一个网络接口，forwarding是路由器执行的实际操作，将数据包从输入接口转发到合适的输出接口） and routing（路由，global action，确定数据包从援助机到目标主机的路径的过程，routing是网络中选择数据包传输路径的决策过程）
+
+Circuit Switching（电路交换）like call guaranteed，no sharing  
+Circuit Switching : FDM and TDM  
+Frequency Divison Multiplexing(FDM)频分复用    
+Time Division Multiplexing(TDM)时分复用  
+FDM频分复用的各路信号在同样的时间占用不同的带宽资源  
+TDM时分复用的所有用户在不同的时间占用相同的频带宽度  
+(figure in prof's slides)  
+
+**numerical example**（记得补充）
+
+ISP,IXP,content provider
+
+**loss , delay , throughput**
+
+nodal dalay = nodal processing delay + queue delay + transmission delay + propagation delay  
+节点总时延=节点处理时延+排队时延+传输时延+传播时延
+
+计算题examples（以后补充）
+
+Packet loss : packet arriving to full buffer is lost , may be retransmitted by previous node ,by source end system ,or not at all
+
+Throughput（吞吐量） : rate (bits/time unit) at which bits are being sent from sender to receiver（表示单位时间内通过某个网络/信道/接口的实际数据量）  
+instantaneous(瞬时吞吐量);average(平均吞吐量)
+
+Internet protocol stack  
+application  
+transport  
+network  
+link  
+physical  
+
+ISO/OSI reference model 7layers
+
 
 
 
