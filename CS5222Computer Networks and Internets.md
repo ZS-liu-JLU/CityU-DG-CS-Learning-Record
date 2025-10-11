@@ -99,6 +99,35 @@ link
 physical  
 
 ISO/OSI reference model 7layers
+application  
+presentation  
+session  
+transport  
+network  
+link  
+physical  
+
+**Application layer is coming soooooon~**
+
+**Transport Layer**
+
+Services : provide logical communication between application processes running on different hosts (在不同主机上运行的应用程序进程之间提供逻辑通信)
+
+Transport protocols actions in end systems:  
+sender: breaks application messages into segments, passes to network layer  
+receiver: reassembles segments into messages, passes to application layer  
+Transport Layer Actions:  
+Sender : 1. is passed an application-layer message  
+2. determines segment header fields values(确定分段标题字段值)  
+3. creates segment  
+4. passes segment to IP  
+
+
+CORE two transport protocols : TCP , UDP 
+
+network layer VS. transport layer  
+network layer : logical communication between hosts  
+transport layer : logical communication between processes
 
 
 
