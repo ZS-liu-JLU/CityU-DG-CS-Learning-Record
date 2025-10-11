@@ -114,14 +114,21 @@ physical
 Services : provide logical communication between application processes running on different hosts (在不同主机上运行的应用程序进程之间提供逻辑通信)
 
 Transport protocols actions in end systems:  
+
 sender: breaks application messages into segments, passes to network layer  
 receiver: reassembles segments into messages, passes to application layer  
-Transport Layer Actions:  
+
+Transport Layer Actions:
+
 Sender : 1. is passed an application-layer message  
 2. determines segment header fields values(确定分段标题字段值)  
 3. creates segment  
 4. passes segment to IP  
 
+Receiver : 1. application receives segment from IP  
+2. checks header values  
+3. extracts application-layer message  
+4. demultiplexes message up to application via socket
 
 CORE two transport protocols : TCP , UDP 
 
