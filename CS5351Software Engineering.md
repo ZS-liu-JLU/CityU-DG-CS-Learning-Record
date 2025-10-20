@@ -36,7 +36,7 @@ Exemplified Software Design Patterns:
 Observer pattern  
 visitor pattern  
 
-Exemplified coding  
+Exemplified coding:  
 code comments
 
 Exemplified Testing:  
@@ -44,7 +44,29 @@ Unit Testing : Test one class or just one function
 Integration Testing: Test the interaction of multiple classes or functions  
 System Testing: Test from user input to system output in end- to-end manner  
 
+SE Process ⎯ techniques  
 
+◆ Collecting user requirements
+◆ Designing software
+◆ Coding/Implementation
+◆ Testing
+◆ Deploying the software at user sites
+◆ Maintain software
+◆ Configuration Management
+◆ Project Management
+
+software process improvement--CURRENT Trends 
+
+1. Some stages(activities) can be done **in parallel**
+
+2. Backward Interations
+
+Extreme Programming (XP)  
+1.Planning  
+2.Design  
+3.Coding  
+4.Testing  
+5.Feedback  
 
 
 
