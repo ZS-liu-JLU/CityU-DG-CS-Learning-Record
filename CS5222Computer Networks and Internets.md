@@ -98,7 +98,8 @@ network
 link  
 physical  
 
-ISO/OSI reference model 7layers
+ISO/OSI reference model 7  
+layers
 application  
 presentation  
 session  
